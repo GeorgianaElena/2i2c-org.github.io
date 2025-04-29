@@ -1,5 +1,5 @@
 ---
-title: "Offering Jetstream2-powered hub support at 2i2c"
+title: "Offering Jetstream2-powered hubs at 2i2c"
 date: 2025-04-28
 authors:
   - Georgiana Dolocan
@@ -13,7 +13,8 @@ draft: false
 
 When we first committed to offer [Jetstream2](https://jetstream-cloud.org/index.html) support at 2i2c, Jetstream2, [Magnum](https://docs.openstack.org/magnum/latest/), [OpenStack](https://www.openstack.org/), [ClusterAPI](https://cluster-api.sigs.k8s.io/) were all new concepts that we hadn't used at 2i2c before.
 And although the initial exercise of reading about each of them independently was confusing, learning how they actually glued together was the key.
-This post is about Jetstream2, 2i2c persistent hub offerings, and the learning that took place in the process.
+
+This post is about Jetstream2, 2i2c persistent storage hub offering, and the learning that took place in the process.
 
 ## Context
 At 2i2c, we want to be able to deploy k8s clusters on different cloud providers. In a very simplistic way, for this we use:
